@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import google.generativeai as genai
 
 # --- 1. MODEL YAPILANDIRMASI ---
-GEMINI_API_KEY = "AIzaSyCdVwaAATWX2d2Q10YYosgonjbOy4-T3Rw"
+GEMINI_API_KEY = "<KENDİ OLUŞTURDUĞUNUZ GEMİNİ API ANAHTARINI GİRİN!>"
 genai.configure(api_key=GEMINI_API_KEY)
 
 def model_baslat():
@@ -180,4 +180,5 @@ st.markdown("""
     <style>
         .stApp { background-color: #050505; color: white; }
     </style>
+
     """, unsafe_allow_html=True)
